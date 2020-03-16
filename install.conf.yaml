@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: './'
+    ~/.config/VSCodium/User: vscode
+
+- create:
+    - ~/Workspace
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
