@@ -1,4 +1,6 @@
 {
+  "workbench.startupEditor": "newUntitledFile",
+
   "breadcrumbs.enabled": false,
 
   "workbench.colorTheme": "Dracula",
@@ -9,6 +11,9 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.renderWhitespace": "all",
+	"editor.tabSize": 2,
+  "editor.insertSpaces": true,
+	"editor.detectIndentation": false,
 
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
