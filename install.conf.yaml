@@ -6,10 +6,13 @@
 
 - link:
     ~/.dotfiles: './'
-    ~/.config/VSCodium/User: vscode
+    ~/.config/VSCodium/User:
+      force: true
+      path: vscode
 
 - create:
     - ~/Workspace
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [sh git/main.sh, Setting git author]
