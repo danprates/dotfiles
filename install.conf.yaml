@@ -6,9 +6,9 @@
 
 - link:
     ~/.dotfiles: './'
-    ~/.config/VSCodium/User:
+    ~/.config/VSCodium/User/settings.json:
       force: true
-      path: 'vscode'
+      path: 'vscode/settings.json'
     ~/.bashrc:
       force: true
       path: 'bash/.bashrc'
