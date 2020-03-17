@@ -8,7 +8,10 @@
     ~/.dotfiles: './'
     ~/.config/VSCodium/User:
       force: true
-      path: vscode
+      path: 'vscode'
+    ~/.bashrc:
+      force: true
+      path: 'bash/.bashrc'
 
 - create:
     - ~/Workspace
