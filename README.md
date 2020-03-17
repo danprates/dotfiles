@@ -26,6 +26,7 @@ Open the VSCodium and install this recommended extensions:
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Live share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [Git lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Editor config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 ---
 
