@@ -1,6 +1,8 @@
 {
   "window.zoomLevel": -1,
 
+  "telemetry.enableTelemetry": false,
+
   "workbench.startupEditor": "newUntitledFile",
 
   "breadcrumbs.enabled": false,
