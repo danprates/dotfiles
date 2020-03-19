@@ -14,19 +14,23 @@ $ sudo apt install fonts-firacode
 
 ---
 
-## VSCodium
+## Visual Studio Code
 
-Get the last version of [codium](https://github.com/VSCodium/vscodium/releases) package and install it.
+Get the last version of [VSCode](https://code.visualstudio.com/download) package and install it.
 
-Open the VSCodium and install this recommended extensions:
+Open the VSCode and install this recommended extensions:
+
+**Required:**
 
 - [Dracula official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 - [Material icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Live share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [Git lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Editor config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+**Optional:**
 
 ---
 
