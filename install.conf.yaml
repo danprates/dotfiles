@@ -13,9 +13,6 @@
       force: true
       path: 'bash/.bashrc'
 
-- create:
-    - ~/Workspace
-
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [sh git/main.sh, Setting git author]
