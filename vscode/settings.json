@@ -33,6 +33,20 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.tabWidth": 2,
+  "prettier.useEditorConfig": true,
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "lf",
+  "prettier.jsxBracketSameLine": false,
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "never",
+  "prettier.quoteProps": "as-needed",
+  "prettier.semi": true,
+  "prettier.useTabs": false,
+
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
