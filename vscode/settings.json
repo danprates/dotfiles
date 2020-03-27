@@ -15,22 +15,23 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.renderWhitespace": "all",
-	"editor.tabSize": 2,
+  "editor.tabSize": 2,
   "editor.insertSpaces": true,
-	"editor.detectIndentation": false,
+  "editor.detectIndentation": false,
 
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
+  "editor.hover.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
-
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   "prettier.singleQuote": true,
