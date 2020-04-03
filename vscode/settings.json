@@ -22,14 +22,7 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": true,
   "editor.parameterHints.enabled": false,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.quickSuggestions": {
-    "other": false,
-    "comments": false,
-    "strings": false
-  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
