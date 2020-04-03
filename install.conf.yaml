@@ -8,8 +8,8 @@
 
 - link:
     ~/.dotfiles: "./"
-    ~/.config/Code/User/settings.json: "vscode/settings.json"
-    ~/.bashrc: "bash/.bashrc"
+    ~/.config/Code/User/settings.json: "src/vscode/settings.json"
+    ~/.bashrc: "src/bash/.bashrc"
     ~/.config/redshift.conf: "src/redshift.conf"
 
 - shell:
@@ -17,4 +17,4 @@
     - git submodule update --init --recursive
 
     # Setting git author
-    - sh git/main.sh
+    - sh src/git/main.sh
