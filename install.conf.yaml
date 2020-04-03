@@ -4,16 +4,17 @@
       create: true
       force: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-    ~/.dotfiles: './'
-    ~/.config/Code/User/settings.json: 'vscode/settings.json'
-    ~/.bashrc: 'bash/.bashrc'
+    ~/.dotfiles: "./"
+    ~/.config/Code/User/settings.json: "vscode/settings.json"
+    ~/.bashrc: "bash/.bashrc"
+    ~/.config/redshift.conf: "src/redshift.conf"
 
 - shell:
-  # Installing submodules
-  - git submodule update --init --recursive
+    # Installing submodules
+    - git submodule update --init --recursive
 
-  # Setting git author
-  - sh git/main.sh
+    # Setting git author
+    - sh git/main.sh
