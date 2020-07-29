@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
 
   "telemetry.enableTelemetry": false,
 
@@ -41,6 +41,10 @@
   "prettier.semi": true,
   "prettier.useTabs": false,
 
+  "emmet.includeLanguages": {
+    "edge": "html"
+  },
+
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
@@ -49,6 +53,12 @@
     "**/.serverless": true,
     "**/.webpack": true,
     ".git": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/dist/*/**": true
   },
 
   "search.exclude": {
@@ -59,5 +69,9 @@
     "**/node_modules": true,
     "**/package-lock.json": true,
     "**/yarn.lock": true
-  }
+  },
+
+  "plantuml.diagramsRoot": "docs/diagrams/src",
+  "plantuml.exportOutDir": "docs/diagrams/out",
+  "css.validate": false
 }

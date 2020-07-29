@@ -29,8 +29,13 @@ Open the VSCode and install this recommended extensions:
 - [Editor config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver)
 
 **Optional:**
+
+- [Edge template support](https://marketplace.visualstudio.com/items?itemName=luongnd.edge)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 ---
 
