@@ -8,13 +8,37 @@
 
 - link:
     ~/.dotfiles: "./"
-    ~/.config/Code/User/settings.json: "src/vscode/settings.json"
-    ~/.bashrc: "src/bash/.bashrc"
-    ~/.config/redshift.conf: "src/redshift.conf"
+    ~/.config/Code/User/settings.json: "src/configs/vscode.json"
+    ~/.bashrc: "src/configs/.bashrc"
+    ~/.config/redshift.conf: "src/configs/redshift.conf"
 
 - shell:
-    # Installing submodules
+    # Install submodules
     - git submodule update --init --recursive
 
-    # Setting git author
-    - sh src/git/main.sh
+    # Update apt
+    - sh src/post-install/before-install.sh
+
+    # Setting git and git-flow
+    - sh src/post-install/git.sh
+
+    # Install dev dependencies
+    - sh src/post-install/dev-essencials.sh
+
+    # Install docker and docker-compose
+    - sh src/post-install/docker.sh
+
+    # Install asdf
+    - sh src/post-install/asdf.sh
+
+    # Install vscode and extensions
+    - sh src/post-install/vscode.sh
+
+    # Flatpack programs
+    - sh src/post-install/flatpack-programs.sh
+
+    # Brave browser
+    - sh src/post-install/brave-browser.sh
+
+    # Remove apt cache
+    - sh src/post-install/after-install.sh
