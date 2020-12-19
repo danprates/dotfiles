@@ -24,8 +24,6 @@ sudo apt install -y software-properties-common
 
 sudo apt install -y git
 
-sudo apt install -y vim-gtk3
-
 sudo apt install -y curl
 
 sudo apt install -y fonts-firacode
