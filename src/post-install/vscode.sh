@@ -20,6 +20,9 @@ code --install-extension dbaeumer.vscode-eslint
 # Gitlens
 code --install-extension eamodio.gitlens
 
+# Github copilot
+code --install-extension github.copilot
+
 # Liveshare
 code --install-extension ms-vsliveshare.vsliveshare
 
