@@ -26,6 +26,9 @@ code --install-extension github.copilot
 # Wakatime
 code --install-extension wakatime.vscode-wakatime
 
+# Spell checker
+code --install-extension streetsidesoftware.code-spell-checker
+
 # Liveshare
 code --install-extension ms-vsliveshare.vsliveshare
 
