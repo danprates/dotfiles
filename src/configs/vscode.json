@@ -1,9 +1,9 @@
 {
   "window.zoomLevel": 0,
-  "telemetry.enableTelemetry": false,
-  "workbench.startupEditor": "newUntitledFile",
   "breadcrumbs.enabled": false,
+  "telemetry.enableTelemetry": false,
   "workbench.colorTheme": "Dracula",
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -16,13 +16,7 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": true,
   "editor.parameterHints.enabled": false,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "emmet.includeLanguages": {
-    "edge": "html"
-  },
+  "editor.inlineSuggest.enabled": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
@@ -47,17 +41,31 @@
     "**/package-lock.json": true,
     "**/yarn.lock": true
   },
-  "editor.inlineSuggest.enabled": true,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
     "plaintext": true,
     "markdown": true
+  },
+  "emmet.includeLanguages": {
+    "edge": "html"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
   }
 }
