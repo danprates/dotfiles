@@ -1,15 +1,10 @@
 {
   "window.zoomLevel": 0,
-
   "telemetry.enableTelemetry": false,
-
   "workbench.startupEditor": "newUntitledFile",
-
   "breadcrumbs.enabled": false,
-
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
-
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontLigatures": true,
@@ -18,7 +13,6 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
-
   "editor.formatOnSave": true,
   "editor.hover.enabled": true,
   "editor.parameterHints.enabled": false,
@@ -26,7 +20,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "prettier.tabWidth": 2,
@@ -40,11 +33,9 @@
   "prettier.quoteProps": "as-needed",
   "prettier.semi": true,
   "prettier.useTabs": false,
-
   "emmet.includeLanguages": {
     "edge": "html"
   },
-
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
@@ -60,7 +51,6 @@
     "**/node_modules/*/**": true,
     "**/dist/*/**": true
   },
-
   "search.exclude": {
     "**/.vscode": true,
     "**/build": true,
@@ -69,5 +59,9 @@
     "**/node_modules": true,
     "**/package-lock.json": true,
     "**/yarn.lock": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }
