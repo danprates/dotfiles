@@ -16,23 +16,10 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": true,
   "editor.parameterHints.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "prettier.tabWidth": 2,
-  "prettier.useEditorConfig": true,
-  "prettier.arrowParens": "always",
-  "prettier.bracketSpacing": true,
-  "prettier.endOfLine": "lf",
-  "prettier.jsxBracketSameLine": false,
-  "prettier.printWidth": 80,
-  "prettier.proseWrap": "never",
-  "prettier.quoteProps": "as-needed",
-  "prettier.semi": true,
-  "prettier.useTabs": false,
   "emmet.includeLanguages": {
     "edge": "html"
   },
