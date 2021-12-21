@@ -71,7 +71,5 @@
     "**/yarn.lock": true
   },
 
-  "plantuml.diagramsRoot": "docs/diagrams/src",
-  "plantuml.exportOutDir": "docs/diagrams/out",
   "css.validate": false
 }
