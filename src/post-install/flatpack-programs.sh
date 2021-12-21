@@ -5,17 +5,8 @@ sudo apt install flatpak
 # Bitwarden
 flatpak install -y flathub com.bitwarden.desktop
 
-# Discord
-flatpak install -y flathub com.discordapp.Discord
-
 # Postman
 flatpak install -y flathub com.getpostman.Postman
-
-# Quickdocs
-flatpak install -y flathub com.github.mdh34.quickdocs
-
-# Slack
-flatpak install -y flathub com.slack.Slack
 
 # Office
 flatpak install -y flathub com.wps.Office
