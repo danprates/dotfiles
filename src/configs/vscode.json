@@ -69,7 +69,5 @@
     "**/node_modules": true,
     "**/package-lock.json": true,
     "**/yarn.lock": true
-  },
-
-  "css.validate": false
+  }
 }
