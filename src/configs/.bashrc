@@ -130,3 +130,5 @@ export NVM_DIR="$HOME/.nvm"
 . $HOME/.asdf/completions/asdf.bash
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+alias g="git"
