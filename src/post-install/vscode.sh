@@ -23,6 +23,9 @@ code --install-extension eamodio.gitlens
 # Github copilot
 code --install-extension github.copilot
 
+# Wakatime
+code --install-extension wakatime.vscode-wakatime
+
 # Liveshare
 code --install-extension ms-vsliveshare.vsliveshare
 
