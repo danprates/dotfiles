@@ -34,3 +34,6 @@ code --install-extension ms-vsliveshare.vsliveshare
 
 # docker
 code --install-extension ms-azuretools.vscode-docker
+
+# MySQL
+code --install-extension cweijan.vscode-mysql-client2
