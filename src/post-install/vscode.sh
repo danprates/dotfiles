@@ -17,9 +17,6 @@ code --install-extension EditorConfig.EditorConfig
 # Eslint
 code --install-extension dbaeumer.vscode-eslint
 
-# Prettier
-code --install-extension esbenp.prettier-vscode
-
 # Gitlens
 code --install-extension eamodio.gitlens
 
