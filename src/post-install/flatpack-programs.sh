@@ -20,9 +20,6 @@ flatpak install -y flathub org.gimp.GIMP.Manual
 # qBittorrent
 flatpak install -y flathub org.qbittorrent.qBittorrent
 
-# VLC
-flatpak install -y flathub org.videolan.VLC
-
 # Typora
 flatpak install -y flathub io.typora.Typora
 
@@ -31,4 +28,3 @@ flatpak install -y flathub org.gnome.Evolution
 
 # GIMP
 flatpak install -y flathub org.gimp.GIMP
-
