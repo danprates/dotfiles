@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NODE_VERSION=14.15.3
+NODE_VERSION=16.14.2
 
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 
