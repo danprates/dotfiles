@@ -54,6 +54,11 @@
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true
   },
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
   "[typescript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnSave": true,
@@ -61,6 +66,11 @@
       "source.fixAll.eslint": true
     }
   },
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.implementationsCodeLens.enabled": true,
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnSave": true,
