@@ -10,7 +10,6 @@
     ~/.dotfiles: "./"
     ~/.config/Code/User/settings.json: "src/configs/vscode.json"
     ~/.bashrc: "src/configs/.bashrc"
-    ~/.config/redshift.conf: "src/configs/redshift.conf"
     ~/.config/.gitignore: "src/configs/.gitignore"
 
 - shell:
