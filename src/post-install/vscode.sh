@@ -17,6 +17,9 @@ code --install-extension EditorConfig.EditorConfig
 # Eslint
 code --install-extension dbaeumer.vscode-eslint
 
+# Gitblame
+code --install-extension waderyan.gitblame
+
 # Github copilot
 code --install-extension github.copilot
 
