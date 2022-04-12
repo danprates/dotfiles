@@ -31,6 +31,9 @@
     # Install asdf
     - sh src/post-install/asdf.sh
 
+    # Install nodeasdf
+    - sh src/post-install/node.sh
+
     # Install vscode and extensions
     - sh src/post-install/vscode.sh
 
