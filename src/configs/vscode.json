@@ -1,7 +1,7 @@
 {
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": false,
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   "workbench.colorTheme": "Dracula",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
