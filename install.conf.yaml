@@ -22,6 +22,9 @@
     # Setting git and git-flow
     - sh src/post-install/git.sh
 
+    # Setting ssh key
+    - sh src/post-install/ssh-key.sh
+
     # Install dev dependencies
     - sh src/post-install/dev-essencials.sh
 
