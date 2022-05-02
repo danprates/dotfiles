@@ -33,3 +33,5 @@ sudo apt install -y apt-transport-https
 sudo apt install -y gnupg
 
 sudo apt install -y lm-sensors
+
+sudo apt install -y gnome-screenshot
