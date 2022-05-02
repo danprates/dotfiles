@@ -35,3 +35,5 @@ sudo apt install -y gnupg
 sudo apt install -y lm-sensors
 
 sudo apt install -y gnome-screenshot
+
+sudo apt install -y tlp tlp-rdw
