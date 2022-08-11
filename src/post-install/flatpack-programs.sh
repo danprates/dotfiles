@@ -28,3 +28,6 @@ flatpak install -y flathub org.gnome.Evolution
 
 # GIMP
 flatpak install -y flathub org.gimp.GIMP
+
+# Ferdium
+flatpak install flathub org.ferdium.Ferdium
