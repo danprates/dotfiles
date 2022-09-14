@@ -20,8 +20,8 @@ flatpak install -y flathub org.gimp.GIMP.Manual
 # qBittorrent
 flatpak install -y flathub org.qbittorrent.qBittorrent
 
-# Typora
-flatpak install -y flathub io.typora.Typora
+# Marktext
+flatpak install -y flathub com.github.marktext.marktext
 
 # Evolution
 flatpak install -y flathub org.gnome.Evolution
