@@ -31,3 +31,6 @@ flatpak install -y flathub org.gimp.GIMP
 
 # Ferdium
 flatpak install flathub org.ferdium.Ferdium
+
+# Peek
+flatpak install flathub com.uploadedlobster.peek
