@@ -64,10 +64,15 @@
       "source.fixAll.eslint": true
     }
   },
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "plantuml.render": "PlantUMLServer",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[edge]": {
+    "editor.defaultFormatter": "jripouteau.adonis-vscode-extension"
   }
 }
