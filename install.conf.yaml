@@ -48,3 +48,6 @@
 
     # Remove apt cache
     - sh src/post-install/after-install.sh
+
+    # Configure shortcuts
+    - sh src/post-install/custom-shortcuts.sh
