@@ -11,6 +11,7 @@
     ~/.config/Code/User/settings.json: "src/configs/vscode.json"
     ~/.bashrc: "src/configs/.bashrc"
     ~/.config/.gitignore: "src/configs/.gitignore"
+    ~/.wakatime.cfg: "src/configs/.wakatime.cfg"
 
 - shell:
     # Install submodules
