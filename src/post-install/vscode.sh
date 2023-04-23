@@ -29,8 +29,5 @@ code --install-extension streetsidesoftware.code-spell-checker
 # Liveshare
 code --install-extension ms-vsliveshare.vsliveshare
 
-# docker
-code --install-extension ms-azuretools.vscode-docker
-
 # PlantUML
 code --install-extension jebbs.plantuml
