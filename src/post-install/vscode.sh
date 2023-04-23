@@ -20,9 +20,6 @@ code --install-extension dbaeumer.vscode-eslint
 # Gitblame
 code --install-extension waderyan.gitblame
 
-# Github copilot
-code --install-extension github.copilot
-
 # Wakatime
 code --install-extension wakatime.vscode-wakatime
 
