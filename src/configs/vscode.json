@@ -45,9 +45,9 @@
   "emmet.includeLanguages": {
     "edge": "html"
   },
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "none",
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.implementationsCodeLens.enabled": true,
   "[typescript]": {
@@ -55,8 +55,8 @@
       "source.fixAll.eslint": true
     }
   },
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "none",
+  "javascript.inlayHints.variableTypes.enabled": false,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.referencesCodeLens.enabled": true,
   "[javascript]": {
@@ -74,5 +74,12 @@
   },
   "[edge]": {
     "editor.defaultFormatter": "jripouteau.adonis-vscode-extension"
+  },
+  "extensions.ignoreRecommendations": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   }
 }
