@@ -31,3 +31,6 @@ code --install-extension ms-vsliveshare.vsliveshare
 
 # PlantUML
 code --install-extension jebbs.plantuml
+
+# Prettier
+code --install-extension esbenp.prettier-vscode
