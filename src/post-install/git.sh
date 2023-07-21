@@ -15,7 +15,7 @@ git config --global --replace-all alias.amend '!git add --all && git commit --am
 # Other configs
 git config --global pull.rebase true
 git config --global push.followTags true
-git config --global init.defaultBranch master
+git config --global init.defaultBranch main
 git config --global core.excludesfile ~/.config/.gitignore
 git config --global core.editor vim
 
