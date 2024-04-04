@@ -35,8 +35,17 @@
     # Install asdf
     - sh src/post-install/asdf.sh
 
-    # Install nodeasdf
+    # Install node asdf
     - sh src/post-install/node.sh
+
+    # Install golang asdf
+    - sh src/post-install/golang.sh
+
+    # Install dotnet asdf
+    - sh src/post-install/dotnet.sh
+
+    # Install php asdf
+    - sh src/post-install/php.sh
 
     # Install vscode and extensions
     - sh src/post-install/vscode.sh
