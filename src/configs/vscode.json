@@ -1,22 +1,41 @@
 {
-  "breadcrumbs.enabled": false,
-  "telemetry.telemetryLevel": "off",
+  // custom visual
+  "workbench.activityBar.location": "top",
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.editorActionsLocation": "default",
+  "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Dracula",
-  "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": true,
+  "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontLigatures": true,
   "editor.fontSize": 14,
+  "material-icon-theme.folders.theme": "none",
+
+  // configs
+  "telemetry.telemetryLevel": "off",
+  "workbench.startupEditor": "none",
+  "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+
+  // editor
+  "editor.fontLigatures": true,
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
-  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
   "editor.hover.enabled": true,
   "editor.parameterHints.enabled": false,
   "editor.inlineSuggest.enabled": true,
-  "files.insertFinalNewline": true,
+  "editor.stickyScroll.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.renderSideBySide": false,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.cursorStyle": "line",
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
     "**/.DS_Store": true,
@@ -29,7 +48,8 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true,
-    "**/dist/*/**": true
+    "**/dist/*/**": true,
+    "**/vendor/*/**": true
   },
   "search.exclude": {
     "**/.vscode": true,
@@ -37,57 +57,73 @@
     "**/dist": true,
     "**/lib": true,
     "**/node_modules": true,
+    "**/vendor": true,
     "**/package-lock.json": true,
+    "**/composer.lock": true,
     "**/yarn.lock": true
   },
-  "emmet.includeLanguages": {
-    "edge": "html"
-  },
-  "typescript.inlayHints.parameterNames.enabled": "none",
-  "typescript.inlayHints.variableTypes.enabled": false,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
-  "typescript.referencesCodeLens.enabled": false,
-  "typescript.implementationsCodeLens.enabled": false,
-  "[typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
+
+  // HTML & CSS
+  "[html][css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.inlayHints.parameterNames.enabled": "none",
-  "javascript.inlayHints.variableTypes.enabled": false,
+  "emmet.includeLanguages": {
+    "edge": "html",
+    "blade": "html"
+  },
+
+  // Typescript & Javascript
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.variableTypes.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.referencesCodeLens.enabled": true,
-  "[javascript]": {
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "always"
+    }
   },
-  "plantuml.server": "https://www.plantuml.com/plantuml",
-  "plantuml.render": "PlantUMLServer",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+
+  // AdonisJS
   "[edge]": {
-    "editor.defaultFormatter": "jripouteau.adonis-vscode-extension"
-  },
-  "extensions.ignoreRecommendations": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+
+  // Golang
   "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file"
   },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+
+  // Csharp & .NET
+  "[csharp][aspnetcorerazor]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.inlineSuggest.suppressSuggestions": false,
+    "editor.formatOnSave": true
+  },
+
+  // PHP & Laravel
+  "php.suggest.basic": false,
+  "[blade]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+
+  // PlantUML
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "plantuml.render": "PlantUMLServer",
+
+  // JSON
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }
