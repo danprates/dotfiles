@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=6.0.420
+VERSION=8.0.302
 
 asdf plugin-add dotnet
 
