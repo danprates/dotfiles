@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# remove emoji shortcut from ctrl + shift + e
-gsettings set org.freedesktop.ibus.panel.emoji hotkey []
+# change emoji shortcut from ctrl + shift + e to ctrl + alt + shift + e
+gsettings set org.freedesktop.ibus.panel.emoji hotkey ["'<Control><Alt><Shift>e'"]
 
 # config basic shortcuts
 SCHEMA=org.gnome.desktop.wm.keybindings
