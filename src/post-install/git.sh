@@ -12,6 +12,7 @@ git config --global --replace-all alias.d '!git log -p --graph --pretty=format:"
 git config --global --replace-all alias.f '!git fetch --all --prune'
 git config --global --replace-all alias.b '!git branch -av'
 git config --global --replace-all alias.amend '!git add --all && git commit --amend --no-edit'
+git config --global --replace-all alias.p '!git add --patch'
 
 # Other configs
 git config --global pull.rebase true
